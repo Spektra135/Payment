@@ -1,0 +1,29 @@
+/*@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf');
+}
+
+@import 'letiables';
+@import 'scaffolding';*/
+@import 'bootstrap.css';
+@import 'style';
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 530px;
+}
+
+.input {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  min-width: 260px;
+}
